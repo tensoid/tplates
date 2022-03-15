@@ -9,6 +9,7 @@ module.exports = {
     console.log("  " + this.highlightGreen("<template name>") + "         Copies the template to the current directory");
     console.log("  " + this.highlightGreen("list") + "                    Lists all available templates");
     console.log("  " + this.highlightGreen("version") + "                 Prints version");
+    console.log("  " + this.highlightGreen("help") + "                    Prints this help message");
   },
 
 

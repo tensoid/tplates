@@ -31,6 +31,11 @@ else if(args[0] === 'version'){
   process.exit(0);
 }
 
+else if(args[0] === 'help'){
+  utils.printUsage();
+  process.exit(0);
+}
+
 else if(templates.includes(args[0])){
   utils.copyTemplate(args[0]);
   console.log("\nTemplate copied to current directory.");
