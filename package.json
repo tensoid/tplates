@@ -1,6 +1,6 @@
 {
   "name": "tplates",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./bin/tplates.js",
   "bin": "./bin/tplates.js",
