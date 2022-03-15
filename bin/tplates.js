@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const package = require('../package.json');
 const process = require('process');
 const utils = require('./utils');
@@ -16,7 +18,7 @@ if(args.length < 1){
 }
 
 else if(args[0] === 'list'){
-  console.log("Available templates:");
+  console.log("\nAvailable templates:");
   templates.forEach(template => {
     console.log(" - " + utils.highlightGreen(template) + ": " + utils.getTemplateDescription(template));
   });
